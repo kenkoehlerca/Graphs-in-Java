@@ -1,0 +1,28 @@
+FILE 1: 
+vertices: 8 edges: 14 directed: false weighted: false
+edge data 0 & 3 does not exist
+edge data: 1 0 directed: false weight: -1.0
+BFS:  0  1  3  2  6  7  4  5 
+RDFS: 0 1
+RDFS: 1 3
+RDFS: 3 6
+RDFS: 3 7
+RDFS: 3 4
+RDFS: 4 5
+RDFS: 1 2
+
+
+FILE 2: 
+vertices: 10 edges: 12 directed: true weighted: true
+edge data: 0 3 directed: true weight: 30.0
+edge data 1 & 0 does not exist
+BFS:  0  1  2  3  4  5  6  8  7  9 
+RDFS: 0 1
+RDFS: 1 4
+RDFS: 4 8
+RDFS: 1 5
+RDFS: 5 7
+RDFS: 0 2
+RDFS: 0 3
+RDFS: 3 6
+RDFS: 6 9
